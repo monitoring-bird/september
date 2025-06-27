@@ -1,0 +1,251 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://monitoring-bird.github.io/september/"
+languageCode = "en-US"
+title = "Biodiversity Monitoring in GGC Meta"
+
+# Metadata
+[params]
+  author = "Diego J. Lizcano"
+  description = "Part of the projects: Sustainable Cattle Ranching and Green Growth Compact Meta"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/bird.jpg"
+  title = "Biodiversity Monitoring GGC Meta. Tracking birds in silvopastoral systems"
+  description = "Preliminary results of the biodiversity component in the projects Sustainable Cattle Ranching [GCS](http://ganaderiacolombianasostenible.co/web/) and Green Growth Compact Meta."
+
+# Navigation section
+[params.nav]
+  mission = "Bird Monitoring"
+  services = "Methods"
+  team = "The Field Team"
+  contact = "Some Results"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_5.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Background"
+    subtitle = "This is part of biodiversity monitoring component of the projects Sustainable Cattle Ranching and Green Growth Compact Meta."
+    description = "<p>We in the program of the Northern Andes and Southern Central America (NASCA) from The Nature Conservancy (TNC), have been monitoring bats, dung beetle and birds in farms that have being implementing sustainable practices.</p><ul class='checked'><li>Birds as landscape detectives</li><li>VHF Telemetry</li><li>Adaptative kernel home range</li></ul>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Practices"
+    subtitle = "Sustainable practices include live fences and silvopastoral systems to connect isolated forest patches and to increase cattle ranching productivity."
+    description = "<p>Lorem ipsum.</p><ul class='checked'><li>Live Fences</li><li>Yopo in silvopastoral</li><li>Connectivity corridors</li></ul>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Areas"
+    subtitle = "We work in Meta and Quindio."
+    description = "<p>We have selected a monitoring place in la Rosania farm were the owners and the Sustainable Cattle Ranching project have created a large patch of yopo tree (Anadenanthera peregrina) as part of his silvopastoral practices.</p><ul class='checked'><li>Mist Netteing</li><li>Bird track</li><li>Conectivity landscapes</li></ul>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Methods"
+  description = "Since January 2017 we have been monitoring the movement of birds using VHF radio telemetry."
+
+  [[params.services.item]]
+    icon = "icon-loader"
+    title = "VHF Telemetry"
+    description = "We use two Wildlife materials VHF receivers and an old Lotek VHF telemetry receiver simultaneously."
+
+  [[params.services.item]]
+    icon = "icon-calculator"
+    title = "Analysis"
+    description = "We have adapted and written code in the statistical software [R](https://www.R-project.org) to perform the analysis."
+
+  [[params.services.item]]
+    icon = "icon-leanpub"
+    title = "Possibilities"
+    description = "The data gathered allows to understand the movement ecology of poor known species and to evaluate how birds use corridors implemented by the project."
+
+  [[params.services.item]]
+    icon = "icon-database"
+    title = "Code and Data"
+    description = "Our code and data will be freely available in [github](https://github.com/dlizcano/VHF_Telemetry) and [Movebank](https://www.movebank.org/)."
+
+  [[params.services.item]]
+    icon = "icon-map-o"
+    title = "Maps"
+    description = "Mapping movement and silvopastoral use intensity."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Support Conservation"
+    description = "Our data and results support biodiviversity conservation in productive landscapes."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Humingbird"
+    subtitle = "scientific name"
+    img = "images/bird_2.jpg"
+
+  [[params.work.item]]
+    title = "Field work"
+    subtitle = "Bird tracking"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Trepa troncos"
+    subtitle = "scientific name"
+    img = "images/bird_4.jpg"
+
+  [[params.work.item]]
+    title = "Ubuco"
+    subtitle = "Scientific name"
+    img = "images/bird_5.jpg"
+
+  [[params.work.item]]
+    title = "Honey sucker"
+    subtitle = "scientific name"
+    img = "images/bird_6.jpg"
+
+  [[params.work.item]]
+    title = "Field work"
+    subtitle = "Bird tracking"
+    img = "images/david.jpg"
+
+  [[params.work.item]]
+    title = "Tracking method"
+    subtitle = "Triangulation procedure"
+    img = "images/telemetry.png"
+
+  [[params.work.item]]
+    title = "Bird handling"
+    subtitle = "Telemetry emisor installing"
+    img = "images/yuri1.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "We are a group of ornitologist, entomologist and wildlife biologists working hard to collect the best data."
+
+
+  [[params.team.item]]
+    name = "Thomas Walsburger"
+    position = "Senior Scientific Advisor, TNC"
+    description = "Thomas designed and orient the reseach."
+    img = "images/Thomas.jpg"
+    facebook = "https://www.facebook.com/twalsch"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+
+  [[params.team.item]]
+    name = "Diego J. Lizcano"
+    position = "Biodiviersity Specialist, TNC"
+    description = "Diego use his skills in wildlife biology and statistics to analize the data."
+    img = "images/me.jpg"
+    facebook = "https://www.facebook.com/djlizcano/"
+    twitter = "https://twitter.com/dlizcano"
+    email = "mailto:diego.lizcano@tnc.org"
+    instagram = "#"
+    github = "https://github.com/dlizcano"
+
+
+
+  [[params.team.item]]
+    name = "Alejandro Lopera"
+    position = "Science Director, GAICA"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/Alejo.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "Robert Rodriguez"
+    position = "Ornitologist, GAICA"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/robert.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    
+  [[params.team.item]]
+    name = "Yuri Rodriguez"
+    position = "Ornitologist, GAICA"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/yuri.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"    
+
+  [[params.team.item]]
+    name = "David Chapeta"
+    position = "MSc. Student, Javeriana University"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/David2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"  
+
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Some Results"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2017 The Nature Conservancy NASCA. <br> Designed by dlizcano using <a href='https://github.com/rstudio/blogdown' target='_blank'>blogdown</a> in <a href='https://www.rstudio.com/' target='_blank'>RStudio</a>. Some Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>More information <a href='http://www.mundotnc.org/nuestro-trabajo/donde-trabajamos/america/colombia/index.htm?intc=mundo.tnav.trabajo' target='_blank'>TNC Mundo</a></small></p>"
+  twitter = "https://twitter.com/MundoTNC"
+  facebook = "https://www.facebook.com/MundoTNC"
+  youtube = "http://www.youtube.com/user/natureconservancy"
+  linkedin = "http://www.linkedin.com/company/the-nature-conservancy"
+  instagram = "https://instagram.com/mundotnc/"
+  flipboard = "https://flipboard.com/@nature_org"
+  
